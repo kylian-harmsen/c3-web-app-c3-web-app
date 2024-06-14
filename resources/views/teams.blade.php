@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container">
+        <a href="{{ route('create')}}" class="btn btn-primary">Create</a>
         <h1>Teams</h1>
         <table class="table">
             <thead>
