@@ -15,6 +15,7 @@
                     @endif
 
                     {{ __('Welkom op de home pagina') }}
+                    <a href="{{ route('teams')}}" class="btn btn-primary">Teams</a>
                 </div>
             </div>
         </div>
